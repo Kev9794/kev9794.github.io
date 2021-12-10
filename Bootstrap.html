@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Pengenalan Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Kev Corp.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Contact</a>
+                <a class="dropdown-item" href="#">Description</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a href="LoginForm.html"><button class="btn btn-outline-info " >Sign In</button></a>
+        <a href="Form.html"><button class="btn btn-outline-info ">Sign Up</button></a>
+      </nav>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Tentang Kami.</h1>      
+          <p>Perusahaan kami merupakan menyediakan beberapa produk hardware dari komputer seperti motherboard, cpu, vga, dll</p>
+        </div>
+      </div>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active" style="background-color: black;"></li>
+          <li data-target="#demo" data-slide-to="1" style="background-color: black;"></li>
+          <li data-target="#demo" data-slide-to="2" style="background-color: black;"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpg" alt="Motherboard" width="500" height="500" style="margin-left: 700px;">
+            <div class="carousel-caption">
+              <h3 style="color: gray;">Motherboard</h3>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="3.png" alt="PC" width="500" height="500" style="margin-left: 700px;">
+            <div class="carousel-caption">
+              <h3 style="color: gray;">PC build</h3>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="3.jpg" alt="CPU" width="500" height="500" style="margin-left: 700px;">
+            <div class="carousel-caption">
+              <h3 style="color: gray;">CPU</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <img class=".rounded float-right" src="tech.png">
+        </div>
+        <div class="col-sm-6">
+          <h2>Headquarters:</h2>
+          <p><div class="spinner-grow spinner-grow-sm text-primary" style="margin-left: 2px;"></div> Jalan Simpang Sulfat Selatan B-220/Kev Corp Store</p>
+        </div>
+      </div>
+</body>
+</html>
